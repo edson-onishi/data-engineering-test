@@ -19,16 +19,16 @@ Sinta-se à vontade para usar qualquer linguagem e tecnologia para atingir seu o
 A execução deste contêiner/script ou notebook deve começar a ler os arquivos especificados e armazená-los em um formato estruturado
 
 **Requisitos**
-- Os dados serão coletados da API Riot: https://developer.riotgames.com/apis
+- Os dados serão extraidos da API Riot: https://developer.riotgames.com/apis
 - Ler a documentação para identificar quais END POINT serão utilizados
-- Os dados precisam ser consistentes, não podemos perder nada.
+- Os dados precisam ser consistentes.
 - Este ETL precisa ser escalonável.
   
 
 **Entregável**
 - **Container Docker, Script ou Notebook:** Solução completa para extrair, processar, analisar e visualizar dados da Riot API, encapsulada em um formato executável.
 - **Dashboards Interativos:** Visualizações interativas que respondem às perguntas do teste de forma clara e concisa.
-- **Pipeline Airflow:** Automação completa do processo de coleta, processamento, análise e visualização dos dados.
+- **Pipeline de dados:** Automação completa do processo de coleta, processamento, análise e visualização dos dados.
 - **Repositório Github:** Código-fonte da solução, incluindo documentação e instruções de execução.
 - **Criar uma tabela:** Juntar os dados extraidos da api das ligas: challengerleagues, grandmasterleagues, masterleagues e conter os campos gameName e tagline
 - **Análise aprofundada dos jogadores com maior qty vitórias e maior qty derrotas:**
@@ -45,6 +45,14 @@ A execução deste contêiner/script ou notebook deve começar a ler os arquivos
   - Qual a divisão e quantos pontos de liga o jogador com mais derrotas possui?
   - O jogador com mais derrotas está em uma série de rebaixamentos?
   - Qual a taxa de vitórias do jogador com mais derrotas?
+---
+
+**Dicas e coisas para manter em mente**
+- Organize seu fluxo de trabalho E escreva um README com instruções sobre como executar seus scripts.
+- Sua solução é capaz de responder todas as perguntas? Não se preocupe se for 100% , mas você pode explicar o porquê?
+- O que você faria diferente se tivesse mais tempo?
+- Sinta-se à vontade para usar qualquer idioma com o qual se sinta confortável, mas lembre-se de que organização e comentários são bem-vindos para explicar sua linha de pensamento.
+
 
 
 
