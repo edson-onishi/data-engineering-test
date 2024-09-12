@@ -1,5 +1,4 @@
 # data-engineering-test
-<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9Neb0dxJv0HBecl0xeHCFW9nUESTyQGGDUw&s'> 
 
 **Objetivo:**
 
